@@ -4,7 +4,17 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body {
+    background:url('../../../images/bd.jpg') no-repeat top center;
+    background-size: cover;
+    height:100vh; /*stand for vertical height*/
+}
+.wrapper {
+    position:absolute;
+    top: 50%;
+    width:100%;
+    padding:0 30px;
+}
 
 
 

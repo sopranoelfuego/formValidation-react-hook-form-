@@ -11,7 +11,8 @@ export default function Register() {
   passConfirm.current=watch("passwordConfirm")
   const onSubmit = data => console.log(data);
 
-  console.log(watch("firstName")); // watch input value by passing the name of it
+  console.log(watch("firstName")); // this whatch is like a observ to the specific dom element
+   // watch input value by passing the name of it
 
   return (
        <div className="wrapper">
@@ -38,12 +39,15 @@ export default function Register() {
                <input type="password" name="passwordConfirm" ref={register({required:true,
                validate:value=> value=== passConfirm.current
             })}/>
-               {errors.lastName && errors.lastName.type=="maxLength" && <span>sorry  must miminum 6 character</span>}
-                {errors.lastName && errors.lastName.type=="required" && <span>sorry password confirmation is required</span>}
+               {errors.passwordConfirm && errors.passwordConfirm.type=="validate" && <span>sorry  u must type the same password</span>}
+                {errors.passwordConfirm && errors.passwordConfirm.type=="required" && <span>sorry password confirmation is required</span>}
                 <input type="submit" value="submit"/>
            </form>
             </div>
-            <div className="image"></div>
+            <div className="image">
+
+               <img src=""/>
+            </div>
 
            </div>
        </div>
