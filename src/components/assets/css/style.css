@@ -11,9 +11,32 @@ body {
 }
 .wrapper {
     position:absolute;
-    top: 50%;
+    top: 40%;
     width:100%;
     padding:0 30px;
+}
+.form-content {
+    max-width: 550px;
+    margin:0 auto;
+    display:flex;
+    flex-direction: row;
+    background:rgba(0,0,0,0.7);
+    padding:30px;
+    color:white;
+
+    
+    /* justify-content: space-between; */
+
+}
+.error {
+    color :red;
+    font-size:14px;
+}
+.text-field {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid cyan;
+    
 }
 
 
