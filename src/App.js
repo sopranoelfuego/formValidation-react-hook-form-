@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 
-import Register from "./components/Register"
-
+import Home from "./component/home/Home"
 function App() {
   return (
     <div className="App">
-      <Register/>
+      this is home
       
     </div>
   );
