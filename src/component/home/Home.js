@@ -71,7 +71,7 @@ function Home() {
                     <div class="expertiseOptions">
                         <div class="option">
                             <i class="fas fa-people-carry"></i>
-                            <h5>Developpement local</h5>
+                            <h5>Développement local</h5>
                         </div>
                         <div class="option">
                             <i class="fas fa-tasks"></i>
@@ -83,7 +83,10 @@ function Home() {
                         </div>
                         <div class="option">
                             <i class="fas fa-hand-holding-usd"></i>
-                            <h5>Reintegration socio-economique</h5>
+                            
+
+
+                            <h5>Réintégration socio-économique </h5>
                         </div>
                     </div>
                     {/* END OF EXPERTISE OPTIONS*/}
